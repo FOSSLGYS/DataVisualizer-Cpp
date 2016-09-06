@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>images/queue.png</file>
+        <file>images/bckgnd.png</file>
+        <file>images/minheap.png</file>
+        <file>images/stack.png</file>
+        <file>images/bst.png</file>
+    </qresource>
+</RCC>
