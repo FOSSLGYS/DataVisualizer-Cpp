@@ -27,7 +27,7 @@
      </widget>
      <widget class="QPushButton" name="pushButton">
       <property name="text">
-       <string>Remove</string>
+       <string>Pop</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_3">
