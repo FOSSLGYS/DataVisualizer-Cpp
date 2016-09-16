@@ -26,6 +26,10 @@ Display types such as list (used in queue and stack DSes) and tree (used in min 
 
 Top level GUI source/UI is handled in files titled "main".
 
+####Style
+
+* Class names should not be typedefed (e.g. typedef class TypeX TypeX) whereas structs may (e.g. typedef struct DataTypeX DataTypeX)
+
 ####How to work on an Issue
 
 You can view the open issues for the repository under [Issues](https://github.com/FOSSLGYS/DataVisualizer-Cpp/issues). If there is a particular existing issue that you would like to fix, please leave a comment below it with intent and details of how you intend to fix it. This will reduce duplication of effort.If you would like to propose an enhancement, or report a bug that you would like to work on, feel free to open new issues and we will assign them to you.
