@@ -4,7 +4,7 @@
 // that can be used across various datastructures.
 #include <visualizer.h>
 
-Ui::List::list(QGraphicsView *v, QGraphicsScene *s,
+Ui::List::List(QGraphicsView *v, QGraphicsScene *s,
            QRectF coords, QPointF lP, QLineF lL, QString val)
 {
     view = v;
@@ -23,7 +23,7 @@ Ui::List::list(QGraphicsView *v, QGraphicsScene *s,
     lLabelCoords = lP;
 }
 
-Ui::List::~list()
+Ui::List::~List()
 {
     if (lLabel)
        delete lLabel;

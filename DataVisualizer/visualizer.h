@@ -31,7 +31,7 @@ namespace Ui {
        QPointF *pos;
    } EllipseElement;
 
-   class list {
+   class List {
    private:
        QGraphicsScene *scene;
        QGraphicsView *view;
@@ -44,9 +44,9 @@ namespace Ui {
        std::map<int, Ui::RectElement> lMap;
        QRectF sceneCoords, baseCoords;
    public:
-       list() { numEntries=0; }
-       ~list();
-       explicit list(QGraphicsView *view, QGraphicsScene *scene,
+       List() { numEntries=0; }
+       ~List();
+       explicit List(QGraphicsView *view, QGraphicsScene *scene,
                      QRectF coords, QPointF lP, QLineF lL, QString val);
        void insertNode();
        void removeNode();
@@ -60,7 +60,6 @@ namespace Ui {
        QString getDataStr(int idx) { return (listData[idx]); }
        void setData(int idx, QString val) { listData[idx] = val; }
    };
-   typedef class list List;
 
    class binaryTree {
    private:
@@ -90,8 +89,6 @@ namespace Ui {
        void setData(int idx, QString val) { if (idx < MAX_ENTRIES) { treeData[idx] = val;} }
 
    };
-   typedef class binaryTree binaryTree;
-
 }
 
 #endif // VISUALIZER_H
